@@ -4,14 +4,14 @@ This repository serves as an example of the Nuxt 3.9.3 `ignore` property within 
 
 In the `nuxt.config.ts` file, you will notice several `ignore` properties that are commented out. Uncommenting these properties will disrupt the Nuxt application, resulting in an error.
 
-### Properties
+### Known values that cause error
 ```
 ignore: [
-    // "**/dist/**/*",
-    // "dist",
-    // "**/node_modules/**/*",
-    // "node_modules/**/*",
-    // "node_modules",
+    "**/dist/**/*",
+    "dist",
+    "**/node_modules/**/*",
+    "node_modules/**/*",
+    "node_modules",
   ],
 ```
 
