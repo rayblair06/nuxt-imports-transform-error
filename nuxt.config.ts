@@ -17,10 +17,10 @@ export default defineNuxtConfig({
     url: "https://example.com",
   },
   ignore: [
-    // "**/dist/**/*", // Doesn't work
-    // "dist", // Doesn't work
-    // "**/node_modules/**/*", // Doesn't work
-    // "node_modules/**/*", // Doesn't work
-    // "node_modules", // Doesn't work
+    "**/dist/**/*", // Doesn't work
+    "dist", // Doesn't work
+    "**/node_modules/**/*", // Doesn't work
+    "node_modules/**/*", // Doesn't work
+    "node_modules", // Doesn't work
   ],
 });
